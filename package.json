@@ -10,7 +10,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "vercel-build": "npx prisma migrate deploy"
+    "vercel-build": "npx populateDB deploy"
   },
   "author": "",
   "license": "ISC",
